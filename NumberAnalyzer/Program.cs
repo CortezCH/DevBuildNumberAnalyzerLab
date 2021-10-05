@@ -95,7 +95,7 @@ namespace NumberAnalyzer
                         Console.WriteLine($"{userName}'s integer is {userInteger} and even");
                     };
                 }
-                else //If Integer is negative
+                else //If Integer is odd
                 {
                     /*Lab had redundant messages for two different ranges so I put this here to show how to do it if you
                      *actually wanted two separate ranges
