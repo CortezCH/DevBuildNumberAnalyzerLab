@@ -79,7 +79,7 @@ namespace NumberAnalyzer
 
                 // create a if/else if/ else tree to see if the user's Integer is Even or Odd
 
-                if (userInteger % 2 == 0) //If integer is positive
+                if (userInteger % 2 == 0) //If integer is even
                 {
                     //Set up another if statement to test whether it's whithin certain ranges
 
