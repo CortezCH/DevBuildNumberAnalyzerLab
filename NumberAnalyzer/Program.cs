@@ -97,16 +97,23 @@ namespace NumberAnalyzer
                 }
                 else //If Integer is negative
                 {
+                    /*Lab had redundant messages for two different ranges so I put this here to show how to do it if you
+                     *actually wanted two separate ranges
+                     * 
                     //Set up another if statement to test whether it's whithin certain ranges
 
-                    if ( userInteger < 60)// user integer is < 60 print user integer is Odd"
+                    if ( userInteger < 60)// user integer is < 60 print user integer is Odd
                     {
-                        Console.WriteLine($"{userName}'s integer is odd");
+                        Console.WriteLine($"{userName}'s integer is and odd");
                     }
-                    else// user integer is > 60 and odd
+                    else// user integer is > 60  print users integer and odd
                     {
                         Console.WriteLine($"{userName}'s integer is {userInteger} and odd.");
                     }
+                    
+                     */
+
+                    Console.WriteLine($"{userName}'s integer is {userInteger} and odd.");
 
                 }
 
